@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>NArrange.PreBuild</id>
+        <version>0.2.9.0</version>
+        <authors>Timm Krause</authors>
+        <owners>Timm Krause</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</summary>
+        <description>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</description>
+        <releaseNotes></releaseNotes>
+        <language>en-US</language>
+        <copyright>Copyright (c) Timm Krause (timm.krause1@gmail.com)</copyright>
+    </metadata>
+</package>
