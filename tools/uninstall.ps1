@@ -1,4 +1,4 @@
-# Copyright (c) Timm Krause (timm.krause1@gmail.com). All rights reserved.
+# Copyright (c) 2013 Timm Krause (timm.krause1@gmail.com). All rights reserved.
 # Kudos to Adam Ralph who allowed me to use some snippets of his PowerShell scripts within his StyleCop.MSBuild package.
 
 param($installPath, $toolsPath, $package, $project)
