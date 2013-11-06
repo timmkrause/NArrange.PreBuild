@@ -1,1 +1,1 @@
-nuget pack -exclude build.cmd
+.nuget\nuget.exe pack src\NArrange.PreBuild.nuspec

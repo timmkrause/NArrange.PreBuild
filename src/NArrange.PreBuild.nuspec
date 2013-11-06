@@ -6,7 +6,7 @@
         <authors>Timm Krause</authors>
         <owners>Timm Krause</owners>
         <projectUrl>https://github.com/timmkrause/NArrange.PreBuild</projectUrl>
-        <iconUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/NArrange.PreBuild.png</iconUrl>
+        <iconUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/src/NArrange.PreBuild.png</iconUrl>
         <licenseUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/LICENSE</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</summary>
