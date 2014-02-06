@@ -9,7 +9,7 @@
         <iconUrl>https://raw.github.com/timmkrause/NArrange.PreBuild/master/src/NArrange.PreBuild.png</iconUrl>
         <licenseUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/LICENSE</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<developmentDependency>true</developmentDependency>
+        <developmentDependency>true</developmentDependency>
         <summary>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</summary>
         <description>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</description>
         <releaseNotes></releaseNotes>
