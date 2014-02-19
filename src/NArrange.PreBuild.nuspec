@@ -1,19 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>NArrange.PreBuild</id>
-        <version>0.2.9.1</version>
-        <authors>Timm Krause</authors>
-        <owners>Timm Krause</owners>
-        <projectUrl>https://github.com/timmkrause/NArrange.PreBuild</projectUrl>
-        <iconUrl>https://raw.github.com/timmkrause/NArrange.PreBuild/master/src/NArrange.PreBuild.png</iconUrl>
-        <licenseUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/LICENSE</licenseUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <developmentDependency>true</developmentDependency>
-        <summary>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</summary>
-        <description>Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</description>
-        <releaseNotes></releaseNotes>
-        <language>en-US</language>
-        <copyright>Copyright (c) 2013-2014 Timm Krause (timm.krause1@gmail.com)</copyright>
-    </metadata>
+  <metadata>
+    <id>NArrange.PreBuild</id>
+    <version>0.2.9.1</version>
+    <authors>Timm Krause</authors>
+    <owners>Timm Krause</owners>
+    <projectUrl>https://github.com/timmkrause/NArrange.PreBuild</projectUrl>
+    <iconUrl>https://raw.github.com/timmkrause/NArrange.PreBuild/master/src/NArrange.PreBuild.png</iconUrl>
+    <licenseUrl>https://github.com/timmkrause/NArrange.PreBuild/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <summary>NOTE: If you are using 0.2.9.0 DO NOT perform an update. Uninstall, then reinstall this version.
+
+Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</summary>
+    <description>NOTE: If you are using 0.2.9.0 DO NOT perform an update. Uninstall, then reinstall this version.
+
+Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</description>
+    <releaseNotes>NOTE: If you are using 0.2.9.0 DO NOT perform an update. Uninstall, then reinstall this version.
+
+0.2.9.1
+- Turn away from PowerShell scripts and make use of NuGets build folder feature
+- Package as developmentDependency</releaseNotes>
+    <language>en-US</language>
+    <copyright>Copyright (c) 2013-2014 Timm Krause (timm.krause1@gmail.com)</copyright>
+  </metadata>
 </package>
