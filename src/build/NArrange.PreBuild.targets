@@ -3,10 +3,12 @@
   <PropertyGroup>
     <BuildDependsOn>NArrange;$(BuildDependsOn)</BuildDependsOn>
     <RebuildDependsOn>NArrange;$(RebuildDependsOn)</RebuildDependsOn>
+    <NArrangePreBuildConfig></NArrangePreBuildConfig>
   </PropertyGroup>
 
   <Target Name="NArrange">
-    <Exec Command="%22$(MSBuildThisFileDirectory)..\tools\narrange-console.exe%22 %22$(ProjectPath)%22" />
+    <Exec Command="%22$(MSBuildThisFileDirectory)..\tools\narrange-console.exe%22 %22$(ProjectPath)%22" Condition="$(NArrangePreBuildConfig) == ''" />
+    <Exec Command="%22$(MSBuildThisFileDirectory)..\tools\narrange-console.exe%22 %22$(ProjectPath)%22 /c:%22$(NArrangePreBuildConfig)%22" Condition="$(NArrangePreBuildConfig) != ''" />
   </Target>
 
 </Project>
