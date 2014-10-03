@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>NArrange.PreBuild</id>
-    <version>0.2.9.1</version>
+    <version>0.2.9.2</version>
     <authors>Timm Krause</authors>
     <owners>Timm Krause</owners>
     <projectUrl>https://github.com/timmkrause/NArrange.PreBuild</projectUrl>
@@ -17,6 +17,9 @@ Adds the official NArrange code formatter to your pre build event for unifying a
 
 Adds the official NArrange code formatter to your pre build event for unifying and beautifying your source files with every build.</description>
     <releaseNotes>NOTE: If you are using 0.2.9.0 DO NOT perform an update. Uninstall, then reinstall this version.
+
+0.2.9.2
+- Allow external configuration file, see project page for details (thanks to Kat Lim Ruiz "katlimruiz")
 
 0.2.9.1
 - Turn away from PowerShell scripts and make use of NuGets build folder feature
